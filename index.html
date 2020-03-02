@@ -20,6 +20,9 @@
     <link rel="icon" href="image/faviconlogo.png" type="image/gif" sizes="16x16">
     <!-- mystylesheet  -->
     <link rel="stylesheet" href="mystylesheet.css">
+    <!-- aos animation  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- fa fa icon  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -52,6 +55,24 @@
         </div>
     </div>
     <!-- end subject  -->
+    <!-- sidebar navigation  -->
+    <div class="field-item even" property="content:encoded">
+        <div class="home-sidebar-navigation" style="display: block;">
+            <ul>
+                <li class=""><a href="#" class="" data-slide="home-mast-forester-image">Home</a></li>
+                <li class="active pulse"><a href="#" class="" data-slide="indegy">Tenable.ot</a></li>
+                <li class=""><a href="#" class="" data-slide="prioritization">Lumin</a></li>
+                <li class=""><a href="#" class="" data-slide="products">Products</a></li>
+                <li class=""><a href="#" class="" data-slide="research">Research</a></li>
+                <li class=""><a href="#" class="" data-slide="customers-single">Customers</a></li>
+                <li class=""><a href="#" class="" data-slide="try-now">Try Now</a></li>
+            </ul>
+        </div>
+        <div class="home-sidebar-navigation__overlay">
+        </div>
+
+    </div>
+    <!-- end sidebar navigation  -->
     <!-- navigation bar  -->
     <nav class="navbar navbar-expand-lg bg-light py-3">
         <a href="#" class="navbar-brand font-weight-bold d-block d-lg-none">MegaMenu</a>
@@ -63,7 +84,7 @@
             <ul class="navbar-nav">
                 <!-- Megamenu-->
                 <li class="nav-item"><a href="index.html" class="nav-link font-weight-bold text-uppercase">home</a></li>
-                <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Aboutus</a></li>
+                <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">About us</a></li>
                 <li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false"
                         class="nav-link dropdown-toggle font-weight-bold text-uppercase">course</a>
@@ -74,12 +95,12 @@
                                     <div class="p-4">
                                         <div class="row">
                                             <div class="col-lg-6 mb-4">
-                                                <h6 class="font-weight-bold text-uppercase">Webdesigning</h6>
+                                                <h6 class="font-weight-bold text-uppercase">Web Designing</h6>
                                                 <ul class="list-unstyled">
                                                     <li class="nav-item"><a href="software.html"
                                                             class="nav-link text-small pb-0">Advance web design</a></li>
                                                     <li class="nav-item"><a href="software.html"
-                                                            class="nav-link text-small pb-0 ">Webdesgn</a></li>
+                                                            class="nav-link text-small pb-0 ">Designing</a></li>
                                                     <li class="nav-item"><a href="software.html"
                                                             class="nav-link text-small pb-0 ">Graphic design</a></li>
                                                     <!-- <li class="nav-item"><a href=""
@@ -99,7 +120,7 @@
                                                             class="nav-link text-small pb-0 "></a></li> -->
                                                 </ul>
                                             </div>
-                                            <div class="col-lg-6 mb-4">
+                                            <!-- <div class="col-lg-6 mb-4">
                                                 <h6 class="font-weight-bold text-uppercase">SHORT-TERM COURSES</h6>
                                                 <ul class="list-unstyled">
                                                     <li class="nav-item"><a href=""
@@ -124,7 +145,7 @@
                                                     <li class="nav-item"><a href=""
                                                             class="nav-link text-small pb-0 "></a></li>
                                                 </ul>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -135,7 +156,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">About</a></li>
+                
                 <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Services</a></li>
                 <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Contact</a></li>
             </ul>
@@ -143,7 +164,7 @@
     </nav>
     <!-- end navigation bar  -->
     <!--main image-->
-    <div class="container-fluid">
+    <div class="container-fluid main">
         <div class="row">
             <img src="image/Web-Designing-Institute.png" class="img-responsive" width="100%">
         </div>
@@ -161,7 +182,7 @@
             <div class="col-md-4 program-left">
                 <div class="program-lft">
                     <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
-                    <h3>Live Project Training</h3>
+                    <h3> <marquee>Live Project Traninig</marquee></h3>
                     <p>Lorem Ipsum is therefore always free.</p>
                 </div>
             </div>
@@ -275,7 +296,7 @@
                         <a href="">
                             <div class="course-details">
                                 <div class="course-logo android-logo">
-                                    <img src="image/angular2+.png" class="img-responsive logo">
+                                    <img src="image/angular2+.png" class="img-responsive logo" data-aos="zoom-in-down" data-aos-duration="1500">
                                 </div>
                                 <h3>Angular +2</h3>
                                 <p>Android is the world's most popular mobile platform. With Android you can use all the
@@ -294,7 +315,7 @@
                     <li> <a href="">
                             <div class="course-details">
                                 <div class="course-logo ios-logo">
-                                    <img src="image/node-js-png.png" class="img-responsive logo">
+                                    <img src="image/node-js-png.png" class="img-responsive logo" data-aos="zoom-in-down" data-aos-duration="1500">
                                 </div>
                                 <h3>Node Js</h3>
                                 <p>With its easy-to-use interface, amazing features, and rock-solid stability, iOS is
@@ -312,7 +333,7 @@
                     <li> <a href="">
                             <div class="course-details">
                                 <div class="course-logo php-logo">
-                                    <img src="image/java script.png" class="img-responsive logo">
+                                    <img src="image/java script.png" class="img-responsive logo" data-aos="zoom-in-down" data-aos-duration="1500">
                                 </div>
                                 <h3>JavaScript</h3>
                                 <p>PHP is a widely-used general-purpose scripting language that is especially suited for
@@ -329,7 +350,7 @@
                     <li> <a href="">
                             <div class="course-details">
                                 <div class="course-logo android-logo">
-                                    <img src="image/bootstrap.png" class="img-responsive logo">
+                                    <img src="image/bootstrap.png" class="img-responsive logo" data-aos="zoom-in-down" data-aos-duration="1500">
                                 </div>
                                 <h3>Bootsrap 4</h3>
                                 <p>Android is the world's most popular mobile platform. With Android you can use all the
@@ -348,7 +369,7 @@
                     <li> <a href="">
                             <div class="course-details">
                                 <div class="course-logo ios-logo">
-                                    <img src="image/css.png" class="img-responsive logo">
+                                    <img src="image/css.png" class="img-responsive logo" data-aos="zoom-in-down" data-aos-duration="1500">
                                 </div>
                                 <h3>CSS</h3>
                                 <p>With its easy-to-use interface, amazing features, and rock-solid stability, iOS is
@@ -366,7 +387,7 @@
                     <li> <a href="">
                             <div class="course-details">
                                 <div class="course-logo php-logo">
-                                    <img src="image/ASP.Net.png" class="img-responsive logo">
+                                    <img src="image/ASP.Net.png" class="img-responsive logo" data-aos="zoom-in-down" data-aos-duration="1500">
                                 </div>
                                 <h3>Asp .Net</h3>
                                 <p>PHP is a widely-used general-purpose scripting language that is especially suited for
@@ -505,5 +526,7 @@
 
 
 </body>
-
+<script>
+    AOS.init();
+  </script>
 </html>
