@@ -1,13 +1,15 @@
 .heading {
     background-color: black;
-    
+
 }
-.heading1  {
+
+.heading1 {
     background-color: #08ADC3;
     color: black;
     padding: 10px;
     font-weight: 600;
 }
+
 .heading marquee {
     color: black;
     font-size: 20px;
@@ -41,13 +43,19 @@
     margin-left: 1em;
 }
 
+.navbar-toggler-icon {
+    color: #fff;
+    background-color: #fff;
+}
 
 .navbar ul li {
     cursor: pointer;
 }
+
 .navbar ul li a {
     color: #08ADC3;
 }
+
 .navbar ul li a:hover {
     color: #878787;
 }
@@ -58,16 +66,18 @@
     flex-direction: column;
     width: 60%;
 }
+
 .dropdown:hover .dropdown-content {
     display: block;
-  }
+}
 
 /* end navigation bar  */
 /*-- our program --*/
-.program{
+.program {
     margin-top: 1em;
     margin-bottom: 1em;
 }
+
 .program-left {
     text-align: center;
     border-top: 5px solid #DF1728;
@@ -155,8 +165,7 @@
 
 /*-- //end our program --*/
 /* use language  */
-.back {  
-}
+.back {}
 
 .title {
     font-size: 28px;
@@ -437,9 +446,7 @@
 
 /* end course  */
 /* live project  */
-.back1 {
-   
-}
+.back1 {}
 
 .back1 {
     padding: 3em;
@@ -454,14 +461,17 @@
     padding: 5px;
     list-style: none;
 }
+
 .back1 li i {
     color: #08ADC3;
     font-size: 28px;
 }
+
 .back1 h2 {
     margin-top: 20px;
     text-align: center;
 }
+
 .back1 h2 i {
     font-size: 30px;
     color: #08ADC3;
@@ -480,7 +490,8 @@
     position: relative;
     margin-bottom: 20em;
 }
-.contact{
+
+.contact {
     text-align: center;
     font-weight: 600;
     padding: 1em;
@@ -743,36 +754,38 @@
     }
 }
 
-    .rotate:hover {
+.rotate:hover {
     animation: rotate .5s alternate;
     animation-fill-mode: forwards;
-  }
-  
-  .rotate:not(:hover) {
+}
+
+.rotate:not(:hover) {
     animation: rotateBack .5s alternate;
     animation-fill-mode: forwards;
-  }
-  
-  @keyframes rotate {
+}
+
+@keyframes rotate {
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     100% {
-      transform: rotate(360deg);
-     
+        transform: rotate(360deg);
+
     }
-  }
-  
-  @keyframes rotateBack {
+}
+
+@keyframes rotateBack {
     0% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
+
     100% {
-      transform: rotate(0deg);
-     
+        transform: rotate(0deg);
+
     }
-  }
-  
+}
+
 /* software page  */
 .head {
     background-color: black;
@@ -788,3 +801,108 @@
     padding: 1em;
 }
 
+.card-image {
+    background-image: url("image/bg.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.card-body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.card {
+    display: inline-block;
+    padding: 4rem 1rem 7rem 1rem;
+    background-color: #08ADC3;
+    position: relative;
+    border: 0px !important;
+    /* box-shadow: 7px 4px 32px 7px #B9B9B9; */
+
+}
+
+.card:after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    background-color: skyblue;
+    top: 0px;
+    right: 0px;
+    border-bottom: 20px solid #08ADC3;
+    border-left: 20px solid #08ADC3;
+    border-right: 20px solid #fff;
+    border-top: 20px solid #fff;
+    position: absolute;
+    -webkit-filter: drop-shadow(-5px 5px 3px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(-5px 5px 3px rgba(0, 0, 0, 0.5));
+}
+
+.card:before {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-top: 40px solid #08ADC3;
+    border-right: 40px solid #08ADC3;
+    border-left: 40px solid #fff;
+    border-bottom: 40px solid #fff;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    -webkit-filter: drop-shadow(7px -7px 5px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(7px -7px 5px rgba(0, 0, 0, 0.5));
+    margin-right: 10%;
+}
+
+.card:nth-of-type(1) {}
+
+.card h2 {
+    color: snow;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card p {
+    color: snow;
+    font-size: 1.1rem;
+    line-height: 140%;
+}
+
+.ftr {
+    text-align: center;
+}
+
+
+@media (max-width:500px) {
+    .back1 h2 {
+        font-size: 17px;
+    }
+
+    .back1 h2 i {
+        font-size: 18px;
+    }
+
+    .back1 ul li {
+        padding: 0px;
+        font-size: 16px;
+    }
+
+    .back1 ul li i {
+        font-size: 16px;
+    }
+
+    .softhead {
+        padding: 0px;
+        font-size: 17px;
+        margin-top: 14px;
+    }
+}
