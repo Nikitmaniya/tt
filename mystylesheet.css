@@ -919,8 +919,49 @@ html {
     box-shadow: 0 0 4px #ccc;
 }
 
+.points {
+    color: #08ADC3;
+    text-align: center;
+}
+.main-point {
+    color: #08ADC3;
+    font-weight: 600;
+}
+.tabs {
+    width: 100%;
+    margin-bottom: 5em;
+}
 
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color:  #29aafe;
+    color: black;
+    font-weight: 600;
+   
+}
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 2em;
+}
+@media(max-width:1196px){
+    .img{
+        width: 330px;
+    }
+}
+@media(max-width:575px){
+    .tabs {
+        width: 95%;
+        margin-bottom: 5em;
+    }
+}
 @media (max-width:500px) {
+    .img{
+        width: 100%;
+    }
+    .tabs {
+        width: 66%;
+        margin-bottom: 5em;
+    }
     .back1 h2 {
         font-size: 17px;
     }
